@@ -72,6 +72,7 @@ namespace NDNN
             {
                 sum = sum + inputWeightTable[key] * inputSignalTable[key];
             }
+            sum = sum + bias;
 
             this.outputSignal = Sigmoid(sum);
 
