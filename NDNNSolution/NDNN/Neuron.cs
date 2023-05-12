@@ -11,6 +11,7 @@ namespace NDNN
     {
         private int id; //고유남바
         private double outputSignal; //최종 출력 신호
+        private double error; //출력신호에 대한 오차
 
         List<Neuron> connectedNeuronList; //입력으로 들어오는 연결된 뉴런들
 
