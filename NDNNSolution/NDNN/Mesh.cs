@@ -9,7 +9,7 @@ namespace NDNN
     public class Mesh
     {
         Dictionary<int, Neuron> neuronList;
-        int[] routingTable;
+        int[] connectionTable;
 
         public Mesh() 
         {
