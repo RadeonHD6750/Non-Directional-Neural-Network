@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mesh.cs" />
+    <Compile Include="Neuron.cs" />
     <Compile Include="Non_Directional_Neural_Network.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
