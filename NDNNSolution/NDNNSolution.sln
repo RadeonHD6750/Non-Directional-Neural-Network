@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDNN-GUI", "NDNN-GUI\NDNN-GUI.csproj", "{7DC45862-FF43-4BC7-820A-88118F4D7D9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NDNN-GUI", "NDNN-GUI\NDNN-GUI.csproj", "{7DC45862-FF43-4BC7-820A-88118F4D7D9B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDNN", "NDNN\NDNN.csproj", "{53E81393-E3F1-466D-B445-AA591294F969}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{98BC604D-9E70-45A7-802D-6E6CA989FFD7}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
